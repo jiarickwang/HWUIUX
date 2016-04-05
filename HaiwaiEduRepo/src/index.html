@@ -1,0 +1,495 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Haiwai Education</title>
+<!--mobile apps-->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="haiwai, education" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!--mobile apps-->
+<!--Custom Theme files -->
+<link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
+<link href="css/style.css" type="text/css" rel="stylesheet" media="all">
+<link rel="stylesheet" href="css/prettySticky.css" type="text/css">
+<!-- //Custom Theme files -->
+	<!-- animation-effect -->
+	<link href="css/animate.min.css" rel="stylesheet">
+	<!-- js -->
+<script src="js/jquery-1.11.1.min.js"></script>
+	<script src="js/wow.min.js"></script>
+	<script>
+		new WOW().init();
+	</script>
+	<!-- //animation-effect -->
+	<!--<link href='//fonts.googleapis.com/css?family=Oleo+Script:400,700' rel='stylesheet' type='text/css'>-->
+	<!--<link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>-->
+<!-- //js -->
+
+<!-- start-smoth-scrolling-->
+	<!-- start-smooth-scrolling -->
+	<script type="text/javascript" src="js/move-top.js"></script>
+	<script type="text/javascript" src="js/easing.js"></script>
+	<script type="text/javascript">
+			jQuery(document).ready(function($) {
+	//			new WOW().init();
+				$(".scroll").click(function(event){
+					event.preventDefault();
+
+			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+			});
+	</script>
+<!--//end-smoth-scrolling-->
+
+</head>
+<body>
+	<!--banner-->
+	<div  id="home" class="banner">
+		<div class="banner-info">
+			<!--navigation-->
+			<div class="top-nav">
+				<nav>
+					<div class="container">
+						<div class="navbar-header logo">
+							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+								<span class="sr-only">Toggle navigation</span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+							<h1><a href="index.html">Haiwai Education</a></h1>
+						</div>
+						<!-- Collect the nav links, forms, and other content for toggling -->
+						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+							<ul class="nav navbar-right">
+								<!--<li><a href="#home" class="link-kumya active scroll"><span data-letters="Home">Home</span></a></li>-->
+								<!--<li><a href="about.html" class="link-kumya"><span data-letters="About">About</span></a></li>	-->
+								<li><a href="school.html" class="link-kumya"><span data-letters="High School">High School</span></a></li>
+								<li><a href="#" class="link-kumya"><span data-letters="Boarding Family">Boarding Family</span></a></li>
+								<li><a href="#" class="link-kumya"><span data-letters="Community">Community</span></a></li>
+								<!--<li><a href="contact.html" class="link-kumya"><span data-letters="Contact">Contact</span></a></li>-->
+							</ul>	
+							<div class="clearfix"> </div>
+						</div>
+					</div>
+				</nav>
+			</div>	
+			<!--//navigation-->
+			<div class="banner-text">
+				<!--banner Slider starts Here-->
+				<script src="js/responsiveslides.min.js"></script>
+				<script>
+					// You can also use "$(window).load(function() {"
+					$(function () {
+					  // Slideshow 3
+					  $("#slider3").responsiveSlides({
+						auto: true,
+						pager: true,
+						nav: false,
+						speed: 500,
+						namespace: "callbacks",
+						before: function () {
+						  $('.events').append("<li>before event fired.</li>");
+						},
+						after: function () {
+						  $('.events').append("<li>after event fired.</li>");
+						}
+					  });
+				
+					});
+				</script>
+				<!--//End-slider-script-->
+				<div  id="top" class="callbacks_container">
+					<ul class="rslides" id="slider3">
+						<li>
+							<div class="banner-text-info">
+								<h2>Welcome to Haiwai Education</h2>
+								<h3>Lorem Ipsum was popularised In sit amet sapien eros Integer dolore magna aliqua Temporibus autem quibusdam</h3>
+								<div class="more">
+									<a href="single.html" class="button-pipaluk button--inverted"> Read More</a>
+								</div>	
+							</div>	
+						</li>
+						<li>
+							<div class="banner-text-info">
+								<h2>Welcome to Haiwai Education</h2>
+								<h3>In sit amet sapien eros Integer dolore magna aliqua Temporibus lorem lpsum was popularised autem quibusdam</h3>	
+								<div class="more">
+									<a href="single.html" class="button-pipaluk button--inverted"> Read More</a>
+								</div>	
+							</div>	
+						</li>
+						<li>
+							<div class="banner-text-info">
+								<h2>Welcome to Haiwai Education</h2>
+								<h3>Temporibus autem quibusdam Lorem Ipsum was popularised In sit amet sapien eros Integer dolore magna aliqua </h3>	
+								<div class="more">
+									<a href="single.html" class="button-pipaluk button--inverted"> Read More</a>
+								</div>	
+							</div>	
+						</li>
+					</ul>
+				</div>
+
+				<div id="search" class="profile_search">
+					<div class="container wrap_1">
+						<form action="">
+							<div class="search_top">
+								<div class="inline-block">
+									<label class="gender_1">I am looking for :</label>
+									<div class="age_box1" style="max-width: 100%; display: inline-block;">
+										<select>
+											<option value="">* Select a Category</option>
+											<option value="Male">High Schools</option>
+											<option value="Male">Graduate Schools</option>
+											<option value="Female">Colleges</option>
+										</select>
+									</div>
+								</div>
+								<div class="inline-block">
+									<label class="gender_1">Located In :</label>
+									<div class="age_box1" style="max-width: 100%; display: inline-block;">
+										<select>
+											<option value="">* Select State</option>
+											<option value="Washington">Washington</option>
+											<option value="Texas">Texas</option>
+											<option value="Georgia">Georgia</option>
+											<option value="Virginia">Virginia</option>
+											<option value="Colorado">Colorado</option>
+										</select>
+									</div>
+								</div>
+								<div class="inline-block">
+									<div class="submit inline-block">
+										<!--<input id="submit-btn" class="hvr-wobble-vertical" type="submit" value="Find">-->
+										<a id="submit-btn" href="searchschool.html" class="hvr-wobble-vertical" >Search</a>
+									</div>
+								<!--<div class="age_box2" style="max-width: 220px;">-->
+								<!--<label class="gender_1">Name :</label>-->
+								<!--<input class="transparent" placeholder="Name:" style="width: 34%;" type="text" value="">-->
+								<!--</div>-->
+								</div>
+
+							</div>
+
+
+						</form>
+					</div>
+				</div>
+
+			</div>	
+		</div>
+	</div>
+	<!--//banner-->
+
+	<!--recently school-section-->
+	<div class="recently-section">
+		<div class="container">
+			<h1>Recently reviewed high school</h1>
+			<h3 class="wow bounceIn">Feel free to check</h3>
+				<div class="row thumbnailsNotColumn">
+					<div class="col-md-4">
+						<a href="school.html">
+							<img src="images/recently/1.jpg" alt="" />
+							<h3>School of Science and Engineering Magnet</h3>
+						</a>
+					</div>
+					<div class="col-md-4">
+						<a href="school.html">
+							<img src="images/recently/3.jpg" alt="" />
+							<h3>Thomas Jefferson High School for Science and Technology</h3>
+						</a>
+					</div>
+					<div class="col-md-4">
+						<a href="school.html">
+							<img src="images/recently/4.jpg" alt="" />
+							<h3>Gwinnett School of Mathematics, Science and Technology</h3>
+						</a>
+					</div>
+				</div>
+
+
+		</div>
+	</div>
+	<!--end recently school-section-->
+
+	<!--city-section-->
+	<div class="city-section">
+				<div class="container">
+					<h1>Explore The Area For High School</h1>
+					<h3 class="wow bounceIn">See where is the school, all around the city</h3>
+					<a style="font-size: 22px; font-weight: bold;" href="area.html" >>> View All Area</a><br/>
+					<div class="top_grid" id="arrow">
+						<div class="content_top">
+							<div class="col-md-8 col1">
+								<a href="area_item.html" class="b-link-stroke b-animate-go  thickbox">
+									<img src="images/area/a11.jpg" class="img-responsive" alt=""/>
+									<div class="b-wrapper1 long-img">
+										<h1 class="col1h1">San Jose</h1>
+										<h2 class="b-animate b-from-left    b-delay03 ">Photo 1</h2>
+										<p class="b-animate b-from-right    b-delay03 ">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+									</div>
+								</a>
+							</div>
+							<div class="col-md-4 col3" >
+								<a href="area_item.html" class="b-link-stroke b-animate-go  thickbox">
+									<img src="images/area/a2.jpg" class="img-responsive" alt=""/><div class="b-wrapper1"><h1 class="">LA </h1><h2 class="b-animate b-from-left    b-delay03 ">Photo 1</h2><p class="b-animate b-from-right    b-delay03 ">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p></div></a>
+								<div class="grid1">
+									<a href="area_item.html" class="b-link-stroke b-animate-go  thickbox">
+										<img src="images/area/a4.jpg" class="img-responsive" alt=""/><div class="b-wrapper1"><h1 class="">San Jose</h1><h2 class="b-animate b-from-left    b-delay03 ">Photo 1</h2><p class="b-animate b-from-right    b-delay03 ">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p></div></a>
+								</div>
+							</div>
+							<div class="clearfix"> </div>
+						</div>
+						<div class="content_middle">
+							<div class="col-md-4 col2">
+								<a href="area_item.html" class="b-link-stroke b-animate-go  thickbox">
+									<img src="images/area/a1.jpg" class="img-responsive" alt=""/><div class=" b-wrapper"><h1 class="">San Jose</h1><h2 class="b-animate b-from-left    b-delay03 ">Photo 1</h2><p class="b-animate b-from-right    b-delay03 ">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p></div></a>
+							</div>
+							<div class="col-md-4 col2">
+								<a href="area_item.html" class="b-link-stroke b-animate-go  thickbox">
+									<img src="images/area/a5.jpg" class="img-responsive" alt=""/><div class=" b-wrapper"><h1 class="">San Jose</h1><h2 class="b-animate b-from-left    b-delay03 ">Photo 1</h2><p class="b-animate b-from-right    b-delay03 ">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p></div></a>
+							</div>
+							<div class="col-md-4">
+								<a href="area_item.html" class="b-link-stroke b-animate-go  thickbox">
+									<img src="images/area/a6.jpg" class="img-responsive" alt=""/><div class=" b-wrapper"><h1 class="">San Jose</h1><h2 class="b-animate b-from-left    b-delay03 ">Photo 1</h2><p class="b-animate b-from-right    b-delay03 ">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p></div></a>
+							</div>
+							<div class="clearfix"> </div>
+						</div>
+					</div>
+				</div>
+	</div>
+	<!--End city-section-->
+
+	<!--recommend school-section-->
+	<div class="recently-section">
+		<div class="container">
+			<h1>We Recommend You High School</h1>
+			<h3 class="wow bounceIn">Feel free to check</h3>
+			<a style="font-size: 22px; font-weight: bold;" href="searchschool.html" >>> View All School</a><br/><br/>
+			<div class="content">
+				<section class="thumbnails">
+					<div>
+						<a href="school.html">
+							<img src="images/highschool/1.jpg" alt="" />
+							<h3>School for the Talented and Gifted</h3>
+						</a>
+						<a href="school.html">
+							<img src="images/highschool/2.jpg" alt="" />
+							<h3>BASIS Scottsdale</h3>
+						</a>
+					</div>
+					<div>
+						<a href="school.html">
+							<img src="images/highschool/3.jpg" alt="" />
+							<h3>Thomas Jefferson High School for Science and Technology</h3>
+						</a>
+						<a href="school.html">
+							<img src="images/highschool/4.jpg" alt="" />
+							<h3>Gwinnett School of Mathematics, Science and Technology</h3>
+						</a>
+					</div>
+					<div>
+						<a href="school.html">
+							<img src="images/highschool/6.jpg" alt="" />
+							<h3>Carnegie Vanguard High School</h3>
+						</a>
+						<a href="school.html">
+							<img src="images/highschool/7.jpg" alt="" />
+							<h3>Academic Magnet High School</h3>
+						</a>
+						<a href="school.html">
+							<img src="images/highschool/5.jpg" alt="" />
+							<h3>School of Science and Engineering Magnet</h3>
+						</a>
+					</div>
+				</section>
+
+			</div>
+		</div>
+	</div>
+	<!--end recommend school-section-->
+
+	<!--our-school-community-->
+	<div class="our-school-community">
+		<!--<div class="container">-->
+			<h2>Our High School Community</h2>
+			<h3 class="wow bounceIn">Join our school community, View New Community</h3>
+		<!-- banner-bottom -->
+		<div class="banner-bottom animated wow" data-wow-duration="1500ms" data-wow-delay="800ms">
+			<ul id="flexiselDemo1">
+				<li>
+					<div class="item item-sub">
+						<div class="item1">
+							<i class="glyphicon glyphicon-heart-empty" aria-hidden="true"></i>
+							<h3>Monmouth County Vocational School District</h3>
+						</div>
+						<div class="p-mask">
+							<h4>High Technology High School</h4>
+							<p>765 NEWMAN SPRINGS RD
+								LINCROFT, NJ 07738.</p>
+							<div class="social-icons">
+								<ul>
+									<li><a href="#" class="twitter"></a></li>
+									<li><a href="#" class="facebook"></a></li>
+									<li><a href="#" class="google"></a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="item item-sub1">
+						<div class="item1">
+							<i class="glyphicon glyphicon-heart-empty" aria-hidden="true"></i>
+							<h3>Fairfax County Public Schools</h3>
+						</div>
+						<div class="p-mask">
+							<h4>Thomas Jefferson High School for Science and Technology</h4>
+							<p>6560 BRADDOCK RD
+								ALEXANDRIA, VA 22312.</p>
+							<div class="social-icons">
+								<ul>
+									<li><a href="#" class="twitter"></a></li>
+									<li><a href="#" class="facebook"></a></li>
+									<li><a href="#" class="google"></a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="item item-sub2">
+						<div class="item1">
+							<i class="glyphicon glyphicon-heart-empty" aria-hidden="true"></i>
+							<h3>Best Magnet Schools Community</h3>
+						</div>
+						<div class="p-mask">
+							<h4>Magnet Schools</h4>
+							<p>11440 NORTH 136TH ST
+								SCOTTSDALE, AZ 85259..</p>
+							<div class="social-icons">
+								<ul>
+									<li><a href="#" class="twitter"></a></li>
+									<li><a href="#" class="facebook"></a></li>
+									<li><a href="#" class="google"></a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="item item-sub3">
+						<div class="item1">
+							<i class="glyphicon glyphicon-heart-empty" aria-hidden="true"></i>
+							<h3>BASIS Schools Community</h3>
+						</div>
+						<div class="p-mask">
+							<h4>BASIS Scottsdale</h4>
+							<p>11440 NORTH 136TH ST
+								SCOTTSDALE, AZ 85259.</p>
+							<div class="social-icons">
+								<ul>
+									<li><a href="#" class="twitter"></a></li>
+									<li><a href="#" class="facebook"></a></li>
+									<li><a href="#" class="google"></a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</li>
+			</ul>
+			<script type="text/javascript">
+				$(window).load(function() {
+					$("#flexiselDemo1").flexisel({
+						visibleItems: 4,
+						animationSpeed: 1000,
+						autoPlay: true,
+						autoPlaySpeed: 3000,
+						pauseOnHover: true,
+						enableResponsiveBreakpoints: true,
+						responsiveBreakpoints: {
+							portrait: {
+								changePoint:480,
+								visibleItems: 1
+							},
+							landscape: {
+								changePoint:640,
+								visibleItems: 2
+							},
+							tablet: {
+								changePoint:768,
+								visibleItems: 3
+							}
+						}
+					});
+
+				});
+			</script>
+			<script type="text/javascript" src="js/jquery.flexisel.js"></script>
+		</div>
+		<!-- //banner-bottom -->
+	</div>
+	<!--end-our-school-community-->
+
+	<!--footer-->
+	<div class="footer">
+		<div class="container">
+			<!--<div class="col-md-4 footer-grids">-->
+				<!--<h3>Review</h3>-->
+				<!--<p>Sed ut turpis elit ullamcorper in auctor non, accumsan vel lacus nulla auctor cursus nunc. Maecenas ultricies dolor in urna tempus, id egestas erat finibus  interdum lectus eget scelerisque.</p>-->
+			<!--</div>-->
+			<!--<div class="col-md-3 footer-grids">-->
+				<!--<h3>Contact Me</h3>-->
+				<!--<p>123 NewYork City USA.<br>-->
+					<!--<span>Office: 908-0000</span>-->
+				<!--</p>-->
+				<div class="footer-bottom">
+					<a href="#"><span>Facebook</span></a>
+					<a href="#"><span>Pinterest</span></a>
+					<a href="#"><span>LinkedIn </span></a>
+					<a href="#"><span>Behance</span></a>
+				</div>
+			<!--</div>-->
+			<!--<div class="col-md-5 footer-grids">-->
+				<!--<h3>Flickr</h3>-->
+				<!--<a  class="footer-img" href="single.html"> <img src="images/f1.jpg" alt=""/></a>-->
+				<!--<a class="footer-img" href="single.html"> <img src="images/f2.jpg" alt=""/></a>-->
+				<!--<a class="footer-img" href="single.html"> <img src="images/f3.jpg" alt=""/></a>-->
+			<!--</div>-->
+			<!--<div class="clearfix"> </div>-->
+			<div class="footer-copy">
+				<p>© 2016 haiwai education. All rights reserved | Design by <a href="http://w3layouts.com">HaiWai.com</a></p>
+			</div>
+		</div>
+	</div>
+	<!--//footer-->
+	<!-- script-for prettySticky -->
+	<script src="js/prettySticky.js"></script>
+	<!--//script-for prettySticky -->
+	<!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/bootstrap.js"></script>
+
+	<!-- here stars scrolling icon -->
+	<script type="text/javascript">
+		$(document).ready(function() {
+			/*
+			 var defaults = {
+			 containerID: 'toTop', // fading element id
+			 containerHoverID: 'toTopHover', // fading element hover id
+			 scrollSpeed: 1200,
+			 easingType: 'linear'
+			 };
+			 */
+
+			$().UItoTop({ easingType: 'easeOutQuart' });
+
+		});
+	</script>
+	<!-- //here ends scrolling icon -->
+</body>
+</html>
